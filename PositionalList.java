@@ -1,5 +1,5 @@
-package a2;
 
+//Code from Assignment 2, Question 2
 /**An interface for positional lists */
 
 public interface PositionalList<E> {
@@ -87,10 +87,9 @@ public interface PositionalList<E> {
 	
 	/**
 	 * Removes the element stored at Position p and returns it (invalidating p)
-	 * @param p 
-	 * @return
+	 * @param p the position to remove.
+	 * @return the element that was stored at the removed position.
 	 * @throws InvalidPositionException if the passed position is invalid.
 	 */
-	E remove(Position<E> p) throws InvalidPositionException;
-	
+	E remove(Position<E> p) throws InvalidPositionException;	
 }

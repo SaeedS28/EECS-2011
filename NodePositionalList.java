@@ -1,5 +1,4 @@
-package a2;
-
+//Code from Assignment 2, Question 2
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

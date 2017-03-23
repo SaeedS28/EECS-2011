@@ -1,5 +1,3 @@
-package a2;
-
 public class InvalidPositionException extends RuntimeException {
 	
 	private static final long serialVersionUID = 1L; //Housekeeping attribute.
